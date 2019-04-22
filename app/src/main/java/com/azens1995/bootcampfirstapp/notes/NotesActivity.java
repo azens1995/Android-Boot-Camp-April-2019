@@ -53,8 +53,7 @@ public class NotesActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
+                // Intent to open the Add Note activity when floating button is clicked
                 Intent intent = new Intent(NotesActivity.this, AddNotesActivity.class);
                 startActivity(intent);
             }
@@ -62,8 +61,16 @@ public class NotesActivity extends AppCompatActivity {
     }
 
     // Menu inflation
+    /*
+    * To create menu, first make the xml file in the menu folder.
+    * Create a folder in res folder. Name the folder "menu". Note that the naming should be all in small letters
+    * Add an Xml and name it note_menu. Please view the code for more understanding and read the developer notes
+    *
+    * */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        // This is similar as using LayoutInflater in Recyclerview
+        // The change is we are inflating menu
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.note_menu, menu);
         return true;
@@ -75,6 +82,7 @@ public class NotesActivity extends AppCompatActivity {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.menu_delete:
+                // We are calling deleteAllNotes method from the viewmodel to delete all the methods when the menu item is clicked
                 notesViewModel.deleteAllNotes();
                 return true;
             default:

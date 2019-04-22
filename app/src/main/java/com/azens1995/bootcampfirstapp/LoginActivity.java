@@ -52,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         //checking if user is already login
         boolean status = sharedPref.getBoolean(LOGIN_STATUS, false);
         Log.d(TAG, "onCreate: "+status);
+        // If user is already logged in, open the home activity rather than login
         if (status){
             startHomeActivity();
         }
@@ -99,6 +100,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    // Intent to open the home activity if the user is logged in
     private void startHomeActivity() {
         Intent loginSuccessIntent = new Intent(LoginActivity.this, HomeActivity.class);
         startActivity(loginSuccessIntent);

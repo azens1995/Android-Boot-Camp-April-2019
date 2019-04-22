@@ -71,6 +71,8 @@ public class HomeActivity extends AppCompatActivity {
         // set the login status to false
         SharedPreferences sharedPref = getSharedPreferences(LOGIN_PREF,Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
+        //setting the logout status false, means the user is logged out
+        // if the login status is false, login activity will open else home activity will be opened
         editor.putBoolean(LOGIN_STATUS, false);
         editor.commit();
 
