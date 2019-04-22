@@ -1,0 +1,6 @@
+
+isquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(í¤Öƒ8üÈÊÄ£-
+Usquid:S1068"2Remove this unused "retrofitClient" private field.(®¼¶¤ûÿÿÿÿ8üÈÊÄ£-
+Qsquid:S1068".Remove this unused "apiService" private field.(šý¤Æøÿÿÿÿ8üÈÊÄ£-
+~squid:S1450"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ýÿÿÿÿ8¼Ä´Ã£-
+~squid:S1450"`Remove the "employeeViewModel" field and declare it as a local variable in the relevant methods.(Ð‡î8‹»ÉÄ£-

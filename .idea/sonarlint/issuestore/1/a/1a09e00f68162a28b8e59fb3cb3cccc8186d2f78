@@ -1,0 +1,5 @@
+
+hsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ê”ïk8¶âÌ˜£-
+nsquid:S1301L"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8í¦¶™£-
+~squid:S1450"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ýÿÿÿÿ8Â ó˜£-
+Osquid:S1068",Remove this unused "allNotes" private field.(À‚Ù“ûÿÿÿÿ8Ê”È™£-

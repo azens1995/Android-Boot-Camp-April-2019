@@ -1,0 +1,4 @@
+
+|squid:S1450"YRemove the "tvRegister" field and declare it as a local variable in the relevant methods.(øôßšùÿÿÿÿ8öð°Ú¢-
+ysquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(àëµïøÿÿÿÿ8ì©ÐÚ¢-
+usquid:S1450"WRemove the "btnLogin" field and declare it as a local variable in the relevant methods.(ææ™Æ8®å­Ú¢-

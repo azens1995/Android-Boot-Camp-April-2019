@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BootcampFirstApp</string>
+    <string name="hint_pw">Password</string>
+    <string name="hint_uname">Username</string>
+    <string name="text_app">Android Bootcamp</string>
+    <string name="btn_text_login">Login</string>
+    <string name="label_signup">Not Registered? SignUp here</string>
+    <string name="title_activity_notes">NotesActivity</string>
+</resources>

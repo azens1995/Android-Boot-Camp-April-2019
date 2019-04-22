@@ -1,0 +1,6 @@
+
+€squid:S1450"]Remove the "retrofitClient" field and declare it as a local variable in the relevant methods.(®¼¶¤ûÿÿÿÿ8ÖÎÿÃ£-
+nsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(™–°âþÿÿÿÿ8Ä’ÛÄ£-
+Osquid:S1068"1Remove this unused "mAllEmployees" private field.(ìôëÒ8“íÛÄ£-
+~squid:S1450"[Remove the "employeeList" field and declare it as a local variable in the relevant methods.(¸Òÿûÿÿÿÿ8àÕÜÄ£-
+|squid:S1450"YRemove the "apiService" field and declare it as a local variable in the relevant methods.(šý¤Æøÿÿÿÿ8ÖÎÿÃ£-
